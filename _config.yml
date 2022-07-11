@@ -23,7 +23,7 @@ pretty_urls:
 
 # Directory
 source_dir: source
-public_dir: public
+public_dir: public/cn
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -98,11 +98,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-Kaze
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
   repository: https://github.com/shadowofgost/shadowofgost.github.io.git
-  branch: master
+  branch: cn
