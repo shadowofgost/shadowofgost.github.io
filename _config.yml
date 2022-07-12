@@ -15,19 +15,20 @@ timezone: 'Asia/Shanghai'
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://example.com
 root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+permalink: :year-:month-:day-:title.html
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
-source_dir: source
+source_dir: source/cn
 public_dir: public/cn
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
-code_dir: downloads/code
+code_dir: code
+images_dir: img
+gallery_dir: gallery
 i18n_dir: :lang
 skip_render:
 
@@ -44,19 +45,6 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
-  hljs: false
-prismjs:
-  enable: false
-  preprocess: true
-  line_number: true
-  tab_replace: ''
-
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -82,7 +70,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: 'date'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -95,10 +83,14 @@ include:
 exclude:
 ignore:
 
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: butterfly
+# plugins:
+plugins:
+  - hexo-algoliasearch
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
