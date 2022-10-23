@@ -316,19 +316,17 @@ algolia:
   #   content: xxxxxxx
 # 数学渲染使用
 mathjax:
-  enable: true
+  enable: false
   # true 表示每一頁都加載mathjax.js
   # false 需要時加載，須在使用的Markdown Front-matter 加上 mathjax: true
   per_page: false
 # kramed的配置文件
-kramed:
-  gfm: true
-  pedantic: false
-  sanitize: false
-  tables: true
-  breaks: true
-  smartLists: true
-  smartypants: true
+katex:
+  enable: true
+  # true 表示每一頁都加載katex.js
+  # false 需要時加載，須在使用的Markdown Front-matter 加上 katex: true
+  per_page: false
+  hide_scrollbar: true
 
 # 打字效果
 # Typewriter Effect (打字效果)
@@ -418,9 +416,6 @@ pjax:
 # 自动生成sitemap
 sitemap:
   path: sitemap.xml
-baidusitemap:
-  path: baidusitemap.xml
-
 # 文件压缩
 # 开启压缩
 neat_enable: true
