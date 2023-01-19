@@ -1,0 +1,8 @@
+http://example.com/tags/index.html
+http://example.com/mainfest.json
+http://example.com/link/index.html
+http://example.com/gallery/index.html
+http://example.com/categories/index.html
+http://example.com/2023-01-19-hello-world.html
+http://example.com/2023-01-19-First-Blog.html
+http://example.com/
