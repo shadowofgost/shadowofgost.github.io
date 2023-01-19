@@ -119,8 +119,8 @@ post_copyright:
   enable: true
   decode: true
   author_href: https://github.com/shadowofgost
-  license: Apache License Version 2.0
-  license_url: https://www.apache.org/licenses/LICENSE-2.0.html
+  license: CC BY-NC-ND 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0
 
 # 文章打赏配置
 reward:
