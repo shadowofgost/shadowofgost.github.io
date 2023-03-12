@@ -4425,12 +4425,12 @@ moize@^6.1.0:
     micro-memoize "^4.0.9"
 
 moment-timezone@^0.5.34:
-  version "0.5.34"
-  resolved "https://registry.npmmirror.com/moment-timezone/-/moment-timezone-0.5.34.tgz"
+  version "0.5.41"
+  resolved "https://registry.npmmirror.com/moment-timezone/-/moment-timezone-0.5.41.tgz#a7ad3285fd24aaf5f93b8119a9d749c8039c64c5"
   dependencies:
-    moment ">= 2.9.0"
+    moment "^2.29.4"
 
-"moment@>= 2.9.0", moment@^2.29.1:
+moment@^2.29.1, moment@^2.29.4:
   version "2.29.4"
   resolved "https://registry.npmmirror.com/moment/-/moment-2.29.4.tgz"
 
