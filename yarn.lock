@@ -5898,8 +5898,8 @@ tempy@^0.6.0:
     unique-string "^2.0.0"
 
 terser@^5.0.0, terser@^5.9.0:
-  version "5.14.1"
-  resolved "https://registry.npmmirror.com/terser/-/terser-5.14.1.tgz"
+  version "5.16.6"
+  resolved "https://registry.npmmirror.com/terser/-/terser-5.16.6.tgz#f6c7a14a378ee0630fbe3ac8d1f41b4681109533"
   dependencies:
     "@jridgewell/source-map" "^0.3.2"
     acorn "^8.5.0"
