@@ -2,99 +2,99 @@
 # yarn lockfile v1
 
 
-"@adobe/css-tools@^4.0.1":
-  version "4.2.0"
-  resolved "https://registry.npmmirror.com/@adobe/css-tools/-/css-tools-4.2.0.tgz#e1a84fca468f4b337816fcb7f0964beb620ba855"
+"@adobe/css-tools@~4.3.1":
+  version "4.3.3"
+  resolved "https://registry.npmmirror.com/@adobe/css-tools/-/css-tools-4.3.3.tgz#90749bde8b89cd41764224f5aac29cd4138f75ff"
 
-"@algolia/cache-browser-local-storage@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.npmmirror.com/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.4.0.tgz"
+"@algolia/cache-browser-local-storage@4.20.0":
+  version "4.20.0"
+  resolved "https://registry.npmmirror.com/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.20.0.tgz#357318242fc542ffce41d6eb5b4a9b402921b0bb"
   dependencies:
-    "@algolia/cache-common" "4.4.0"
+    "@algolia/cache-common" "4.20.0"
 
-"@algolia/cache-common@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.npmmirror.com/@algolia/cache-common/-/cache-common-4.4.0.tgz"
+"@algolia/cache-common@4.20.0":
+  version "4.20.0"
+  resolved "https://registry.npmmirror.com/@algolia/cache-common/-/cache-common-4.20.0.tgz#ec52230509fce891091ffd0d890618bcdc2fa20d"
 
-"@algolia/cache-in-memory@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.npmmirror.com/@algolia/cache-in-memory/-/cache-in-memory-4.4.0.tgz"
+"@algolia/cache-in-memory@4.20.0":
+  version "4.20.0"
+  resolved "https://registry.npmmirror.com/@algolia/cache-in-memory/-/cache-in-memory-4.20.0.tgz#5f18d057bd6b3b075022df085c4f83bcca4e3e67"
   dependencies:
-    "@algolia/cache-common" "4.4.0"
+    "@algolia/cache-common" "4.20.0"
 
-"@algolia/client-account@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.npmmirror.com/@algolia/client-account/-/client-account-4.4.0.tgz"
+"@algolia/client-account@4.20.0":
+  version "4.20.0"
+  resolved "https://registry.npmmirror.com/@algolia/client-account/-/client-account-4.20.0.tgz#23ce0b4cffd63100fb7c1aa1c67a4494de5bd645"
   dependencies:
-    "@algolia/client-common" "4.4.0"
-    "@algolia/client-search" "4.4.0"
-    "@algolia/transporter" "4.4.0"
+    "@algolia/client-common" "4.20.0"
+    "@algolia/client-search" "4.20.0"
+    "@algolia/transporter" "4.20.0"
 
-"@algolia/client-analytics@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.npmmirror.com/@algolia/client-analytics/-/client-analytics-4.4.0.tgz"
+"@algolia/client-analytics@4.20.0":
+  version "4.20.0"
+  resolved "https://registry.npmmirror.com/@algolia/client-analytics/-/client-analytics-4.20.0.tgz#0aa6bef35d3a41ac3991b3f46fcd0bf00d276fa9"
   dependencies:
-    "@algolia/client-common" "4.4.0"
-    "@algolia/client-search" "4.4.0"
-    "@algolia/requester-common" "4.4.0"
-    "@algolia/transporter" "4.4.0"
+    "@algolia/client-common" "4.20.0"
+    "@algolia/client-search" "4.20.0"
+    "@algolia/requester-common" "4.20.0"
+    "@algolia/transporter" "4.20.0"
 
-"@algolia/client-common@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.npmmirror.com/@algolia/client-common/-/client-common-4.4.0.tgz"
+"@algolia/client-common@4.20.0":
+  version "4.20.0"
+  resolved "https://registry.npmmirror.com/@algolia/client-common/-/client-common-4.20.0.tgz#ca60f04466515548651c4371a742fbb8971790ef"
   dependencies:
-    "@algolia/requester-common" "4.4.0"
-    "@algolia/transporter" "4.4.0"
+    "@algolia/requester-common" "4.20.0"
+    "@algolia/transporter" "4.20.0"
 
-"@algolia/client-recommendation@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.npmmirror.com/@algolia/client-recommendation/-/client-recommendation-4.4.0.tgz"
+"@algolia/client-personalization@4.20.0":
+  version "4.20.0"
+  resolved "https://registry.npmmirror.com/@algolia/client-personalization/-/client-personalization-4.20.0.tgz#ca81308e8ad0db3b27458b78355f124f29657181"
   dependencies:
-    "@algolia/client-common" "4.4.0"
-    "@algolia/requester-common" "4.4.0"
-    "@algolia/transporter" "4.4.0"
+    "@algolia/client-common" "4.20.0"
+    "@algolia/requester-common" "4.20.0"
+    "@algolia/transporter" "4.20.0"
 
-"@algolia/client-search@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.npmmirror.com/@algolia/client-search/-/client-search-4.4.0.tgz"
+"@algolia/client-search@4.20.0":
+  version "4.20.0"
+  resolved "https://registry.npmmirror.com/@algolia/client-search/-/client-search-4.20.0.tgz#3bcce817ca6caedc835e0eaf6f580e02ee7c3e15"
   dependencies:
-    "@algolia/client-common" "4.4.0"
-    "@algolia/requester-common" "4.4.0"
-    "@algolia/transporter" "4.4.0"
+    "@algolia/client-common" "4.20.0"
+    "@algolia/requester-common" "4.20.0"
+    "@algolia/transporter" "4.20.0"
 
-"@algolia/logger-common@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.npmmirror.com/@algolia/logger-common/-/logger-common-4.4.0.tgz"
+"@algolia/logger-common@4.20.0":
+  version "4.20.0"
+  resolved "https://registry.npmmirror.com/@algolia/logger-common/-/logger-common-4.20.0.tgz#f148ddf67e5d733a06213bebf7117cb8a651ab36"
 
-"@algolia/logger-console@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.npmmirror.com/@algolia/logger-console/-/logger-console-4.4.0.tgz"
+"@algolia/logger-console@4.20.0":
+  version "4.20.0"
+  resolved "https://registry.npmmirror.com/@algolia/logger-console/-/logger-console-4.20.0.tgz#ac443d27c4e94357f3063e675039cef0aa2de0a7"
   dependencies:
-    "@algolia/logger-common" "4.4.0"
+    "@algolia/logger-common" "4.20.0"
 
-"@algolia/requester-browser-xhr@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.npmmirror.com/@algolia/requester-browser-xhr/-/requester-browser-xhr-4.4.0.tgz"
+"@algolia/requester-browser-xhr@4.20.0":
+  version "4.20.0"
+  resolved "https://registry.npmmirror.com/@algolia/requester-browser-xhr/-/requester-browser-xhr-4.20.0.tgz#db16d0bdef018b93b51681d3f1e134aca4f64814"
   dependencies:
-    "@algolia/requester-common" "4.4.0"
+    "@algolia/requester-common" "4.20.0"
 
-"@algolia/requester-common@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.npmmirror.com/@algolia/requester-common/-/requester-common-4.4.0.tgz"
+"@algolia/requester-common@4.20.0":
+  version "4.20.0"
+  resolved "https://registry.npmmirror.com/@algolia/requester-common/-/requester-common-4.20.0.tgz#65694b2263a8712b4360fef18680528ffd435b5c"
 
-"@algolia/requester-node-http@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.npmmirror.com/@algolia/requester-node-http/-/requester-node-http-4.4.0.tgz"
+"@algolia/requester-node-http@4.20.0":
+  version "4.20.0"
+  resolved "https://registry.npmmirror.com/@algolia/requester-node-http/-/requester-node-http-4.20.0.tgz#b52b182b52b0b16dec4070832267d484a6b1d5bb"
   dependencies:
-    "@algolia/requester-common" "4.4.0"
+    "@algolia/requester-common" "4.20.0"
 
-"@algolia/transporter@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.npmmirror.com/@algolia/transporter/-/transporter-4.4.0.tgz"
+"@algolia/transporter@4.20.0":
+  version "4.20.0"
+  resolved "https://registry.npmmirror.com/@algolia/transporter/-/transporter-4.20.0.tgz#7e5b24333d7cc9a926b2f6a249f87c2889b944a9"
   dependencies:
-    "@algolia/cache-common" "4.4.0"
-    "@algolia/logger-common" "4.4.0"
-    "@algolia/requester-common" "4.4.0"
+    "@algolia/cache-common" "4.20.0"
+    "@algolia/logger-common" "4.20.0"
+    "@algolia/requester-common" "4.20.0"
 
 "@ampproject/remapping@^2.1.0":
   version "2.2.0"
@@ -1001,6 +1001,14 @@
   version "0.7.0"
   resolved "https://registry.npmmirror.com/@sindresorhus/is/-/is-0.7.0.tgz"
 
+"@sindresorhus/is@^6.3.0":
+  version "6.3.1"
+  resolved "https://registry.npmmirror.com/@sindresorhus/is/-/is-6.3.1.tgz#43bbe2a94de0d7a11b95b7fc8100fa0e4694bbe0"
+
+"@sindresorhus/merge-streams@^2.1.0":
+  version "2.3.0"
+  resolved "https://registry.npmmirror.com/@sindresorhus/merge-streams/-/merge-streams-2.3.0.tgz#719df7fb41766bc143369eaa0dd56d8dc87c9958"
+
 "@surma/rollup-plugin-off-main-thread@^2.2.3":
   version "2.2.3"
   resolved "https://registry.npmmirror.com/@surma/rollup-plugin-off-main-thread/-/rollup-plugin-off-main-thread-2.2.3.tgz"
@@ -1022,6 +1030,10 @@
   version "0.0.39"
   resolved "https://registry.npmmirror.com/@types/estree/-/estree-0.0.39.tgz"
 
+"@types/expect@^1.20.4":
+  version "1.20.4"
+  resolved "https://registry.npmmirror.com/@types/expect/-/expect-1.20.4.tgz#8288e51737bf7e3ab5d7c77bfa695883745264e5"
+
 "@types/node@*":
   version "18.0.3"
   resolved "https://registry.npmmirror.com/@types/node/-/node-18.0.3.tgz"
@@ -1036,13 +1048,20 @@
   version "2.0.2"
   resolved "https://registry.npmmirror.com/@types/trusted-types/-/trusted-types-2.0.2.tgz"
 
+"@types/vinyl@^2.0.12":
+  version "2.0.12"
+  resolved "https://registry.npmmirror.com/@types/vinyl/-/vinyl-2.0.12.tgz#17642ca9a8ae10f3db018e9f885da4188db4c6e6"
+  dependencies:
+    "@types/expect" "^1.20.4"
+    "@types/node" "*"
+
 a-sync-waterfall@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/a-sync-waterfall/-/a-sync-waterfall-1.0.1.tgz"
 
-abbrev@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npmmirror.com/abbrev/-/abbrev-1.1.1.tgz"
+abbrev@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/abbrev/-/abbrev-2.0.0.tgz#cf59829b8b4f03f89dda2771cb7f3653828c89bf"
 
 accepts@~1.3.5:
   version "1.3.8"
@@ -1068,24 +1087,24 @@ ajv@^8.6.0:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-algoliasearch@4.4.0:
-  version "4.4.0"
-  resolved "https://registry.npmmirror.com/algoliasearch/-/algoliasearch-4.4.0.tgz"
+algoliasearch@4.20.0:
+  version "4.20.0"
+  resolved "https://registry.npmmirror.com/algoliasearch/-/algoliasearch-4.20.0.tgz#700c2cb66e14f8a288460036c7b2a554d0d93cf4"
   dependencies:
-    "@algolia/cache-browser-local-storage" "4.4.0"
-    "@algolia/cache-common" "4.4.0"
-    "@algolia/cache-in-memory" "4.4.0"
-    "@algolia/client-account" "4.4.0"
-    "@algolia/client-analytics" "4.4.0"
-    "@algolia/client-common" "4.4.0"
-    "@algolia/client-recommendation" "4.4.0"
-    "@algolia/client-search" "4.4.0"
-    "@algolia/logger-common" "4.4.0"
-    "@algolia/logger-console" "4.4.0"
-    "@algolia/requester-browser-xhr" "4.4.0"
-    "@algolia/requester-common" "4.4.0"
-    "@algolia/requester-node-http" "4.4.0"
-    "@algolia/transporter" "4.4.0"
+    "@algolia/cache-browser-local-storage" "4.20.0"
+    "@algolia/cache-common" "4.20.0"
+    "@algolia/cache-in-memory" "4.20.0"
+    "@algolia/client-account" "4.20.0"
+    "@algolia/client-analytics" "4.20.0"
+    "@algolia/client-common" "4.20.0"
+    "@algolia/client-personalization" "4.20.0"
+    "@algolia/client-search" "4.20.0"
+    "@algolia/logger-common" "4.20.0"
+    "@algolia/logger-console" "4.20.0"
+    "@algolia/requester-browser-xhr" "4.20.0"
+    "@algolia/requester-common" "4.20.0"
+    "@algolia/requester-node-http" "4.20.0"
+    "@algolia/transporter" "4.20.0"
 
 ansi-colors@^1.0.1:
   version "1.1.0"
@@ -1217,10 +1236,6 @@ array-sort@^1.0.0:
     default-compare "^1.0.0"
     get-value "^2.0.6"
     kind-of "^5.0.2"
-
-array-union@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.npmmirror.com/array-union/-/array-union-3.0.1.tgz#da52630d327f8b88cfbfb57728e2af5cd9b6b975"
 
 array-unique@^0.3.2:
   version "0.3.2"
@@ -1406,7 +1421,7 @@ bl@^1.0.0:
     readable-stream "^2.3.5"
     safe-buffer "^5.1.1"
 
-bluebird@^3.2.2, bluebird@^3.5.1, bluebird@^3.5.2, bluebird@^3.5.5, bluebird@^3.7.2:
+bluebird@^3.5.2, bluebird@^3.5.5, bluebird@^3.7.2:
   version "3.7.2"
   resolved "https://registry.npmmirror.com/bluebird/-/bluebird-3.7.2.tgz"
 
@@ -1532,6 +1547,10 @@ call-bind@^1.0.0, call-bind@^1.0.2:
     function-bind "^1.1.1"
     get-intrinsic "^1.0.2"
 
+callsites@^4.1.0:
+  version "4.2.0"
+  resolved "https://registry.npmmirror.com/callsites/-/callsites-4.2.0.tgz#98761d5be3ce092e4b9c92f7fb8c8eb9b83cadc8"
+
 camel-case@3.0.x, camel-case@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmmirror.com/camel-case/-/camel-case-3.0.0.tgz"
@@ -1571,12 +1590,20 @@ chalk@^2.0.0:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.0.0, chalk@^4.0.2, chalk@^4.1.2:
+chalk@^4.0.2:
   version "4.1.2"
   resolved "https://registry.npmmirror.com/chalk/-/chalk-4.1.2.tgz"
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
+
+chalk@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.npmmirror.com/chalk/-/chalk-5.3.0.tgz#67c20a7ebef70e7f3970a01f90fa210cb6860385"
+
+change-file-extension@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.npmmirror.com/change-file-extension/-/change-file-extension-0.1.1.tgz#46a342c4f327cdc0578ac7fc8412c364561da677"
 
 character-parser@^2.2.0:
   version "2.2.0"
@@ -1602,7 +1629,7 @@ chokidar@^2.0.0:
   optionalDependencies:
     fsevents "^1.2.7"
 
-chokidar@^3.0.0, chokidar@^3.5.3:
+chokidar@^3.5.3:
   version "3.5.3"
   resolved "https://registry.npmmirror.com/chokidar/-/chokidar-3.5.3.tgz"
   dependencies:
@@ -1708,9 +1735,9 @@ color-support@^1.1.3:
   version "1.1.3"
   resolved "https://registry.npmmirror.com/color-support/-/color-support-1.1.3.tgz"
 
-command-exists@^1.2.8:
+command-exists@^1.2.9:
   version "1.2.9"
-  resolved "https://registry.npmmirror.com/command-exists/-/command-exists-1.2.9.tgz"
+  resolved "https://registry.npmmirror.com/command-exists/-/command-exists-1.2.9.tgz#c50725af3808c8ab0260fd60b01fbfa25b954f69"
 
 commander@2.17.x, commander@^2.8.1:
   version "2.17.1"
@@ -1804,6 +1831,10 @@ content-disposition@^0.5.2:
   dependencies:
     safe-buffer "5.2.1"
 
+convert-hrtime@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmmirror.com/convert-hrtime/-/convert-hrtime-5.0.0.tgz#f2131236d4598b95de856926a67100a0a97e9fa3"
+
 convert-source-map@^1.5.0, convert-source-map@^1.7.0:
   version "1.8.0"
   resolved "https://registry.npmmirror.com/convert-source-map/-/convert-source-map-1.8.0.tgz"
@@ -1883,23 +1914,15 @@ css-what@^6.0.1:
   version "6.1.0"
   resolved "https://registry.npmmirror.com/css-what/-/css-what-6.1.0.tgz#fb5effcf76f1ddea2c81bdfaa4de44e79bac70f4"
 
-css@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmmirror.com/css/-/css-3.0.0.tgz"
-  dependencies:
-    inherits "^2.0.4"
-    source-map "^0.6.1"
-    source-map-resolve "^0.6.0"
-
 csso@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npmmirror.com/csso/-/csso-4.2.0.tgz#ea3a561346e8dc9f546d6febedd50187cf389529"
   dependencies:
     css-tree "^1.1.2"
 
-cuid@^2.1.4:
+cuid@^2.1.8:
   version "2.1.8"
-  resolved "https://registry.npmmirror.com/cuid/-/cuid-2.1.8.tgz"
+  resolved "https://registry.npmmirror.com/cuid/-/cuid-2.1.8.tgz#cbb88f954171e0d5747606c0139fb65c5101eac0"
 
 d@1, d@^1.0.1:
   version "1.0.1"
@@ -2038,12 +2061,6 @@ detect-file@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmmirror.com/detect-file/-/detect-file-1.0.0.tgz"
 
-dir-glob@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.npmmirror.com/dir-glob/-/dir-glob-3.0.1.tgz"
-  dependencies:
-    path-type "^4.0.0"
-
 doctypes@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmmirror.com/doctypes/-/doctypes-1.1.0.tgz"
@@ -2074,7 +2091,7 @@ domhandler@^4.2.0, domhandler@^4.2.2, domhandler@^4.3.1:
   dependencies:
     domelementtype "^2.2.0"
 
-domhandler@^5.0.1, domhandler@^5.0.2:
+domhandler@^5.0.1, domhandler@^5.0.2, domhandler@^5.0.3:
   version "5.0.3"
   resolved "https://registry.npmmirror.com/domhandler/-/domhandler-5.0.3.tgz#cc385f7f751f1d1fc650c21374804254538c7d31"
   dependencies:
@@ -2095,6 +2112,20 @@ domutils@^3.0.1:
     dom-serializer "^2.0.0"
     domelementtype "^2.3.0"
     domhandler "^5.0.1"
+
+domutils@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.npmmirror.com/domutils/-/domutils-3.1.0.tgz#c47f551278d3dc4b0b1ab8cbb42d751a6f0d824e"
+  dependencies:
+    dom-serializer "^2.0.0"
+    domelementtype "^2.3.0"
+    domhandler "^5.0.3"
+
+dot-prop@^8.0.2:
+  version "8.0.2"
+  resolved "https://registry.npmmirror.com/dot-prop/-/dot-prop-8.0.2.tgz#afda6866610684dd155a96538f8efcdf78a27f18"
+  dependencies:
+    type-fest "^3.8.0"
 
 download@^6.2.2:
   version "6.2.5"
@@ -2153,6 +2184,10 @@ eastasianwidth@~0.2.0:
   version "0.2.0"
   resolved "https://registry.npmmirror.com/eastasianwidth/-/eastasianwidth-0.2.0.tgz"
 
+easy-transform-stream@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmmirror.com/easy-transform-stream/-/easy-transform-stream-1.0.1.tgz#faffdd1839a03d14d76e694bd2e6315551a6a215"
+
 ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.npmmirror.com/ee-first/-/ee-first-1.1.1.tgz"
@@ -2188,6 +2223,14 @@ entities@^3.0.1, entities@~3.0.1:
 entities@^4.2.0, entities@^4.3.0:
   version "4.4.0"
   resolved "https://registry.npmmirror.com/entities/-/entities-4.4.0.tgz#97bdaba170339446495e653cfd2db78962900174"
+
+entities@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.npmmirror.com/entities/-/entities-4.5.0.tgz#5d268ea5e7113ec74c4d033b79ea5a35a488fb48"
+
+environment@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.npmmirror.com/environment/-/environment-1.1.0.tgz#8e86c66b180f363c7ab311787e0259665f45a9f1"
 
 error-ex@^1.2.0:
   version "1.3.2"
@@ -2325,20 +2368,6 @@ execa@^1.0.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-execa@^4.0.0:
-  version "4.1.0"
-  resolved "https://registry.npmmirror.com/execa/-/execa-4.1.0.tgz#4e5491ad1572f2f17a77d388c6c857135b22847a"
-  dependencies:
-    cross-spawn "^7.0.0"
-    get-stream "^5.0.0"
-    human-signals "^1.1.1"
-    is-stream "^2.0.0"
-    merge-stream "^2.0.0"
-    npm-run-path "^4.0.0"
-    onetime "^5.1.0"
-    signal-exit "^3.0.2"
-    strip-final-newline "^2.0.0"
-
 execa@^5.0.0:
   version "5.1.1"
   resolved "https://registry.npmmirror.com/execa/-/execa-5.1.1.tgz"
@@ -2352,6 +2381,20 @@ execa@^5.0.0:
     onetime "^5.1.2"
     signal-exit "^3.0.3"
     strip-final-newline "^2.0.0"
+
+execa@^6.0.0:
+  version "6.1.0"
+  resolved "https://registry.npmmirror.com/execa/-/execa-6.1.0.tgz#cea16dee211ff011246556388effa0818394fb20"
+  dependencies:
+    cross-spawn "^7.0.3"
+    get-stream "^6.0.1"
+    human-signals "^3.0.1"
+    is-stream "^3.0.0"
+    merge-stream "^2.0.0"
+    npm-run-path "^5.1.0"
+    onetime "^6.0.0"
+    signal-exit "^3.0.7"
+    strip-final-newline "^3.0.0"
 
 executable@^4.1.0:
   version "4.1.1"
@@ -2426,7 +2469,7 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-fancy-log@^1.3.2, fancy-log@^1.3.3:
+fancy-log@^1.3.2:
   version "1.3.3"
   resolved "https://registry.npmmirror.com/fancy-log/-/fancy-log-1.3.3.tgz"
   dependencies:
@@ -2443,9 +2486,13 @@ fast-equals@^3.0.1:
   version "3.0.3"
   resolved "https://registry.npmmirror.com/fast-equals/-/fast-equals-3.0.3.tgz"
 
-fast-glob@^3.2.7:
-  version "3.2.12"
-  resolved "https://registry.npmmirror.com/fast-glob/-/fast-glob-3.2.12.tgz#7f39ec99c2e6ab030337142da9e0c18f37afae80"
+fast-equals@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.npmmirror.com/fast-equals/-/fast-equals-5.0.1.tgz#a4eefe3c5d1c0d021aeed0bc10ba5e0c12ee405d"
+
+fast-glob@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.npmmirror.com/fast-glob/-/fast-glob-3.3.2.tgz#a904501e57cfdd2ffcded45e99a54fef55e46129"
   dependencies:
     "@nodelib/fs.stat" "^2.0.2"
     "@nodelib/fs.walk" "^1.2.3"
@@ -2461,11 +2508,11 @@ fast-levenshtein@^1.0.0:
   version "1.1.4"
   resolved "https://registry.npmmirror.com/fast-levenshtein/-/fast-levenshtein-1.1.4.tgz"
 
-fast-xml-parser@^3.19.0:
-  version "3.21.1"
-  resolved "https://registry.npmmirror.com/fast-xml-parser/-/fast-xml-parser-3.21.1.tgz#152a1d51d445380f7046b304672dd55d15c9e736"
+fast-xml-parser@^4.1.3:
+  version "4.4.0"
+  resolved "https://registry.npmmirror.com/fast-xml-parser/-/fast-xml-parser-4.4.0.tgz#341cc98de71e9ba9e651a67f41f1752d1441a501"
   dependencies:
-    strnum "^1.0.4"
+    strnum "^1.0.5"
 
 fastq@^1.6.0:
   version "1.13.0"
@@ -2487,13 +2534,13 @@ file-type@^10.4.0:
   version "10.11.0"
   resolved "https://registry.npmmirror.com/file-type/-/file-type-10.11.0.tgz"
 
-file-type@^16.5.3:
-  version "16.5.4"
-  resolved "https://registry.npmmirror.com/file-type/-/file-type-16.5.4.tgz#474fb4f704bee427681f98dd390058a172a6c2fd"
+file-type@^19.0.0:
+  version "19.1.0"
+  resolved "https://registry.npmmirror.com/file-type/-/file-type-19.1.0.tgz#c813c1575b30ec6a2689881a228fa447225c2367"
   dependencies:
-    readable-web-to-node-stream "^3.0.0"
-    strtok3 "^6.2.4"
-    token-types "^4.1.1"
+    strtok3 "^7.1.0"
+    token-types "^6.0.0"
+    uint8array-extras "^1.3.0"
 
 file-type@^3.8.0:
   version "3.9.0"
@@ -2678,6 +2725,14 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmmirror.com/function-bind/-/function-bind-1.1.1.tgz"
 
+function-bind@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npmmirror.com/function-bind/-/function-bind-1.1.2.tgz#2c02d864d97f3ea6c8830c464cbd11ab6eab7a1c"
+
+function-timeout@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.npmmirror.com/function-timeout/-/function-timeout-1.0.2.tgz#e5a7b6ffa523756ff20e1231bbe37b5f373aadd5"
+
 function.prototype.name@^1.1.5:
   version "1.1.5"
   resolved "https://registry.npmmirror.com/function.prototype.name/-/function.prototype.name-1.1.5.tgz"
@@ -2734,13 +2789,7 @@ get-stream@^4.0.0:
   dependencies:
     pump "^3.0.0"
 
-get-stream@^5.0.0:
-  version "5.2.0"
-  resolved "https://registry.npmmirror.com/get-stream/-/get-stream-5.2.0.tgz#4966a1795ee5ace65e706c4b7beb71257d6e22d3"
-  dependencies:
-    pump "^3.0.0"
-
-get-stream@^6.0.0:
+get-stream@^6.0.0, get-stream@^6.0.1:
   version "6.0.1"
   resolved "https://registry.npmmirror.com/get-stream/-/get-stream-6.0.1.tgz"
 
@@ -2836,16 +2885,16 @@ globals@^11.1.0:
   version "11.12.0"
   resolved "https://registry.npmmirror.com/globals/-/globals-11.12.0.tgz"
 
-globby@^12.0.0:
-  version "12.2.0"
-  resolved "https://registry.npmmirror.com/globby/-/globby-12.2.0.tgz#2ab8046b4fba4ff6eede835b29f678f90e3d3c22"
+globby@^14.0.1:
+  version "14.0.2"
+  resolved "https://registry.npmmirror.com/globby/-/globby-14.0.2.tgz#06554a54ccfe9264e5a9ff8eded46aa1e306482f"
   dependencies:
-    array-union "^3.0.1"
-    dir-glob "^3.0.1"
-    fast-glob "^3.2.7"
-    ignore "^5.1.9"
-    merge2 "^1.4.1"
-    slash "^4.0.0"
+    "@sindresorhus/merge-streams" "^2.1.0"
+    fast-glob "^3.3.2"
+    ignore "^5.2.4"
+    path-type "^5.0.0"
+    slash "^5.1.0"
+    unicorn-magic "^0.1.0"
 
 glogg@^1.0.0:
   version "1.0.2"
@@ -2894,7 +2943,7 @@ got@^8.3.1:
     url-parse-lax "^3.0.0"
     url-to-options "^1.0.1"
 
-graceful-fs@^4.0.0, graceful-fs@^4.1.10, graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.3, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.10, graceful-fs@^4.2.8:
+graceful-fs@^4.0.0, graceful-fs@^4.1.10, graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.10:
   version "4.2.10"
   resolved "https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.10.tgz"
 
@@ -2946,22 +2995,28 @@ gulp-htmlmin@^5.0.1:
     plugin-error "^1.0.1"
     through2 "^2.0.3"
 
-gulp-imagemin@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.npmmirror.com/gulp-imagemin/-/gulp-imagemin-8.0.0.tgz#2ce8a91d9ab2d88d60a80cca2f6dbc8f1a643d30"
+gulp-imagemin@^9.0.0:
+  version "9.1.0"
+  resolved "https://registry.npmmirror.com/gulp-imagemin/-/gulp-imagemin-9.1.0.tgz#17a351e3ba3eaf366926376762d00ca3a95f9fb2"
   dependencies:
-    chalk "^4.1.2"
-    fancy-log "^1.3.3"
-    imagemin "^8.0.1"
-    plugin-error "^1.0.1"
-    plur "^4.0.0"
-    pretty-bytes "^5.6.0"
-    through2-concurrent "^2.0.0"
+    chalk "^5.3.0"
+    gulp-plugin-extras "^1.0.0"
+    imagemin "^9.0.0"
+    plur "^5.1.0"
+    pretty-bytes "^6.1.1"
   optionalDependencies:
     imagemin-gifsicle "^7.0.0"
-    imagemin-mozjpeg "^9.0.0"
+    imagemin-mozjpeg "^10.0.0"
     imagemin-optipng "^8.0.0"
-    imagemin-svgo "^9.0.0"
+    imagemin-svgo "^10.0.1"
+
+gulp-plugin-extras@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/gulp-plugin-extras/-/gulp-plugin-extras-1.0.0.tgz#74c4ddf14dde61100f5fd7b81cab45e87a72ebe3"
+  dependencies:
+    "@types/vinyl" "^2.0.12"
+    chalk "^5.3.0"
+    easy-transform-stream "^1.0.1"
 
 gulp-terser@^2.1.0:
   version "2.1.0"
@@ -3058,30 +3113,36 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hasown@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npmmirror.com/hasown/-/hasown-2.0.2.tgz#003eaf91be7adc372e84ec59dc37252cedb80003"
+  dependencies:
+    function-bind "^1.1.2"
+
 he@1.2.x, he@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npmmirror.com/he/-/he-1.2.0.tgz"
 
-hexo-algoliasearch@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmmirror.com/hexo-algoliasearch/-/hexo-algoliasearch-1.0.0.tgz"
+hexo-algoliasearch@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.npmmirror.com/hexo-algoliasearch/-/hexo-algoliasearch-2.0.1.tgz#6756d4004d716f102a38961c427cb47187f1b679"
   dependencies:
-    algoliasearch "4.4.0"
-    striptags "3.1.1"
+    algoliasearch "4.20.0"
+    striptags "3.2.0"
 
-hexo-cli@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.npmmirror.com/hexo-cli/-/hexo-cli-4.3.0.tgz"
+hexo-cli@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.npmmirror.com/hexo-cli/-/hexo-cli-4.3.2.tgz#7e7d02da137d9fa461a4356964793c56e92b29e6"
   dependencies:
-    abbrev "^1.1.1"
-    bluebird "^3.5.5"
-    chalk "^4.0.0"
-    command-exists "^1.2.8"
-    hexo-fs "^3.0.1"
-    hexo-log "^2.0.0"
-    hexo-util "^2.0.0"
+    abbrev "^2.0.0"
+    bluebird "^3.7.2"
+    command-exists "^1.2.9"
+    hexo-fs "^4.1.1"
+    hexo-log "^4.0.1"
+    hexo-util "^3.3.0"
     minimist "^1.2.5"
-    resolve "^1.11.0"
+    picocolors "^1.0.0"
+    resolve "^1.20.0"
     tildify "^2.0.0"
 
 hexo-deployer-git@^4.0.0:
@@ -3095,20 +3156,11 @@ hexo-deployer-git@^4.0.0:
     nunjucks "^3.2.3"
     picocolors "^1.0.0"
 
-hexo-front-matter@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmmirror.com/hexo-front-matter/-/hexo-front-matter-3.0.0.tgz"
+hexo-front-matter@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.npmmirror.com/hexo-front-matter/-/hexo-front-matter-4.2.1.tgz#c28ee74f66ab76c98fa73877b5ff7a9cc14161cc"
   dependencies:
     js-yaml "^4.1.0"
-
-hexo-fs@^3.0.1, hexo-fs@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.npmmirror.com/hexo-fs/-/hexo-fs-3.1.0.tgz"
-  dependencies:
-    bluebird "^3.5.1"
-    chokidar "^3.0.0"
-    graceful-fs "^4.1.11"
-    hexo-util "^2.0.0"
 
 hexo-fs@^4.0.0:
   version "4.1.1"
@@ -3118,6 +3170,15 @@ hexo-fs@^4.0.0:
     chokidar "^3.5.3"
     graceful-fs "^4.2.10"
     hexo-util "^2.7.0"
+
+hexo-fs@^4.1.1, hexo-fs@^4.1.3:
+  version "4.1.3"
+  resolved "https://registry.npmmirror.com/hexo-fs/-/hexo-fs-4.1.3.tgz#c64c66e230dad4ec08ca21244327aa0aba69218a"
+  dependencies:
+    bluebird "^3.7.2"
+    chokidar "^3.5.3"
+    graceful-fs "^4.2.10"
+    hexo-util "^3.0.1"
 
 hexo-generator-archive@^2.0.0:
   version "2.0.0"
@@ -3131,9 +3192,9 @@ hexo-generator-category@^2.0.0:
   dependencies:
     hexo-pagination "3.0.0"
 
-hexo-generator-index@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmmirror.com/hexo-generator-index/-/hexo-generator-index-3.0.0.tgz"
+hexo-generator-index@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmmirror.com/hexo-generator-index/-/hexo-generator-index-4.0.0.tgz#2f20cf9d231db30edbccd5be32c92c8aeb5d6d63"
   dependencies:
     hexo-pagination "3.0.0"
 
@@ -3158,21 +3219,15 @@ hexo-generator-tag@^2.0.0:
   dependencies:
     hexo-pagination "3.0.0"
 
-hexo-i18n@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmmirror.com/hexo-i18n/-/hexo-i18n-1.0.0.tgz"
-  dependencies:
-    sprintf-js "^1.0.3"
-
-hexo-log@^2.0.0:
+hexo-i18n@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.npmmirror.com/hexo-log/-/hexo-log-2.0.0.tgz"
+  resolved "https://registry.npmmirror.com/hexo-i18n/-/hexo-i18n-2.0.0.tgz#ec7abc160ffef202524f3ff8076b85d5701c447b"
   dependencies:
-    chalk "^4.0.0"
+    sprintf-js "^1.1.2"
 
-hexo-log@^3.0.0, hexo-log@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.npmmirror.com/hexo-log/-/hexo-log-3.2.0.tgz"
+hexo-log@^4.0.1:
+  version "4.1.0"
+  resolved "https://registry.npmmirror.com/hexo-log/-/hexo-log-4.1.0.tgz#54b42c250335067b5c60b4137f501607454efda0"
   dependencies:
     picocolors "^1.0.0"
 
@@ -3204,9 +3259,9 @@ hexo-renderer-ejs@^2.0.0:
   dependencies:
     ejs "^3.1.6"
 
-hexo-renderer-markdown-it@7.1.0:
-  version "7.1.0"
-  resolved "https://registry.npmmirror.com/hexo-renderer-markdown-it/-/hexo-renderer-markdown-it-7.1.0.tgz#fb7b982284e0deca88ac9c54440ac38715b2bcba"
+hexo-renderer-markdown-it@7.1.1:
+  version "7.1.1"
+  resolved "https://registry.npmmirror.com/hexo-renderer-markdown-it/-/hexo-renderer-markdown-it-7.1.1.tgz#30997efd6e5972056e4c37a986ab68cbe891fed9"
   dependencies:
     hexo-util "^3.0.1"
     markdown-it "^13.0.1"
@@ -3228,19 +3283,12 @@ hexo-renderer-pug@^3.0.0:
   dependencies:
     pug "^3.0.2"
 
-hexo-renderer-stylus@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.npmmirror.com/hexo-renderer-stylus/-/hexo-renderer-stylus-2.1.0.tgz"
+hexo-renderer-stylus@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npmmirror.com/hexo-renderer-stylus/-/hexo-renderer-stylus-3.0.1.tgz#7ff6f3101fa86ba25de415257be7fa7032e910bc"
   dependencies:
     nib "^1.2.0"
-    stylus "^0.57.0"
-
-hexo-renderer-stylus@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmmirror.com/hexo-renderer-stylus/-/hexo-renderer-stylus-3.0.0.tgz#6d5d8678c327e68aef213b41a9e7fcf0527ccd51"
-  dependencies:
-    nib "^1.2.0"
-    stylus "^0.59.0"
+    stylus "^0.62.0"
 
 hexo-server@^3.0.0:
   version "3.0.0"
@@ -3255,14 +3303,14 @@ hexo-server@^3.0.0:
     picocolors "^1.0.0"
     serve-static "^1.14.1"
 
-hexo-theme-butterfly@^4.9.0:
-  version "4.9.0"
-  resolved "https://registry.npmmirror.com/hexo-theme-butterfly/-/hexo-theme-butterfly-4.9.0.tgz#787cfef1bf816f5081ce3f49cdba3350ecf7e442"
+hexo-theme-butterfly@^4.13.0:
+  version "4.13.0"
+  resolved "https://registry.npmmirror.com/hexo-theme-butterfly/-/hexo-theme-butterfly-4.13.0.tgz#078a1512e28aac10c715a785dc0daaf65b4dc7fd"
   dependencies:
     hexo-renderer-pug "^3.0.0"
-    hexo-renderer-stylus "^3.0.0"
+    hexo-renderer-stylus "^3.0.1"
 
-hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.7.0:
+hexo-util@^2.1.0, hexo-util@^2.7.0:
   version "2.7.0"
   resolved "https://registry.npmmirror.com/hexo-util/-/hexo-util-2.7.0.tgz"
   dependencies:
@@ -3288,27 +3336,39 @@ hexo-util@^3.0.1:
     prismjs "^1.29.0"
     strip-indent "^3.0.0"
 
+hexo-util@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.npmmirror.com/hexo-util/-/hexo-util-3.3.0.tgz#448927fb22e167f2159306666cc2c7e82c777513"
+  dependencies:
+    camel-case "^4.1.2"
+    cross-spawn "^7.0.3"
+    deepmerge "^4.2.2"
+    highlight.js "^11.6.0"
+    htmlparser2 "^9.0.0"
+    prismjs "^1.29.0"
+    strip-indent "^3.0.0"
+
 hexo-wordcount@^6.0.1:
   version "6.0.1"
   resolved "https://registry.npmmirror.com/hexo-wordcount/-/hexo-wordcount-6.0.1.tgz"
 
-hexo@^6.3.0:
-  version "6.3.0"
-  resolved "https://registry.npmmirror.com/hexo/-/hexo-6.3.0.tgz"
+hexo@^7.1.1:
+  version "7.3.0"
+  resolved "https://registry.npmmirror.com/hexo/-/hexo-7.3.0.tgz#a9a487874c5ed71c22e91e32dd5d825709a1474f"
   dependencies:
-    abbrev "^1.1.1"
+    abbrev "^2.0.0"
     archy "^1.0.0"
     bluebird "^3.7.2"
-    hexo-cli "^4.3.0"
-    hexo-front-matter "^3.0.0"
-    hexo-fs "^3.1.0"
-    hexo-i18n "^1.0.0"
-    hexo-log "^3.2.0"
-    hexo-util "^2.7.0"
+    hexo-cli "^4.3.2"
+    hexo-front-matter "^4.2.1"
+    hexo-fs "^4.1.3"
+    hexo-i18n "^2.0.0"
+    hexo-log "^4.0.1"
+    hexo-util "^3.3.0"
     js-yaml "^4.1.0"
     js-yaml-js-types "^1.0.0"
     micromatch "^4.0.4"
-    moize "^6.1.0"
+    moize "^6.1.6"
     moment "^2.29.1"
     moment-timezone "^0.5.34"
     nunjucks "^3.2.3"
@@ -3319,7 +3379,7 @@ hexo@^6.3.0:
     text-table "^0.2.0"
     tildify "^2.0.0"
     titlecase "^1.1.3"
-    warehouse "^4.0.2"
+    warehouse "^5.0.1"
 
 highlight.js@^11.0.1:
   version "11.5.1"
@@ -3385,6 +3445,15 @@ htmlparser2@^8.0.1:
     domutils "^3.0.1"
     entities "^4.3.0"
 
+htmlparser2@^9.0.0:
+  version "9.1.0"
+  resolved "https://registry.npmmirror.com/htmlparser2/-/htmlparser2-9.1.0.tgz#cdb498d8a75a51f739b61d3f718136c369bc8c23"
+  dependencies:
+    domelementtype "^2.3.0"
+    domhandler "^5.0.3"
+    domutils "^3.1.0"
+    entities "^4.5.0"
+
 http-cache-semantics@3.8.1:
   version "3.8.1"
   resolved "https://registry.npmmirror.com/http-cache-semantics/-/http-cache-semantics-3.8.1.tgz"
@@ -3399,25 +3468,31 @@ http-errors@2.0.0:
     statuses "2.0.1"
     toidentifier "1.0.1"
 
-human-signals@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npmmirror.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
-
 human-signals@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmmirror.com/human-signals/-/human-signals-2.1.0.tgz"
+
+human-signals@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npmmirror.com/human-signals/-/human-signals-3.0.1.tgz#c740920859dafa50e5a3222da9d3bf4bb0e5eef5"
 
 idb@^6.1.4:
   version "6.1.5"
   resolved "https://registry.npmmirror.com/idb/-/idb-6.1.5.tgz"
 
+identifier-regex@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/identifier-regex/-/identifier-regex-1.0.0.tgz#b9fc92aecfe3d9f3b427fd5af0d2e663163fcbef"
+  dependencies:
+    reserved-identifiers "^1.0.0"
+
 ieee754@^1.1.13, ieee754@^1.2.1:
   version "1.2.1"
   resolved "https://registry.npmmirror.com/ieee754/-/ieee754-1.2.1.tgz"
 
-ignore@^5.1.9:
-  version "5.2.4"
-  resolved "https://registry.npmmirror.com/ignore/-/ignore-5.2.4.tgz#a291c0c6178ff1b960befe47fcdec301674a6324"
+ignore@^5.2.4:
+  version "5.3.1"
+  resolved "https://registry.npmmirror.com/ignore/-/ignore-5.3.1.tgz#5073e554cd42c5b33b394375f538b8593e34d4ef"
 
 imagemin-gifsicle@^7.0.0:
   version "7.0.0"
@@ -3427,13 +3502,13 @@ imagemin-gifsicle@^7.0.0:
     gifsicle "^5.0.0"
     is-gif "^3.0.0"
 
-imagemin-mozjpeg@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.npmmirror.com/imagemin-mozjpeg/-/imagemin-mozjpeg-9.0.0.tgz#d1af26d0b43d75a41c211051c1910da59d9d2324"
+imagemin-mozjpeg@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.npmmirror.com/imagemin-mozjpeg/-/imagemin-mozjpeg-10.0.0.tgz#d6771d1ce05ee15e2f6f34a9878c7266abccd9ee"
   dependencies:
-    execa "^4.0.0"
-    is-jpg "^2.0.0"
-    mozjpeg "^7.0.0"
+    execa "^6.0.0"
+    is-jpg "^3.0.0"
+    mozjpeg "^8.0.0"
 
 imagemin-optipng@^8.0.0:
   version "8.0.0"
@@ -3443,24 +3518,26 @@ imagemin-optipng@^8.0.0:
     is-png "^2.0.0"
     optipng-bin "^7.0.0"
 
-imagemin-svgo@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.npmmirror.com/imagemin-svgo/-/imagemin-svgo-9.0.0.tgz#749370804608917a67d4ff590f07a87756aec006"
+imagemin-svgo@^10.0.1:
+  version "10.0.1"
+  resolved "https://registry.npmmirror.com/imagemin-svgo/-/imagemin-svgo-10.0.1.tgz#bc592950831c13998a40cb248f6e82e0b0b5c3dd"
   dependencies:
-    is-svg "^4.2.1"
-    svgo "^2.1.0"
+    is-svg "^4.3.1"
+    svgo "^2.5.0"
 
-imagemin@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.npmmirror.com/imagemin/-/imagemin-8.0.1.tgz#8b29ecb78197d8f0eac6a782f2e6b38fb3780d9e"
+imagemin@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.npmmirror.com/imagemin/-/imagemin-9.0.0.tgz#1a65aba528a9dcb6521bead8a7ae507bf0ddc59d"
   dependencies:
-    file-type "^16.5.3"
-    globby "^12.0.0"
-    graceful-fs "^4.2.8"
-    junk "^3.1.0"
+    change-file-extension "^0.1.1"
+    environment "^1.0.0"
+    file-type "^19.0.0"
+    globby "^14.0.1"
+    junk "^4.0.1"
+    ow "^2.0.0"
     p-pipe "^4.0.0"
-    replace-ext "^2.0.0"
-    slash "^3.0.0"
+    slash "^5.1.0"
+    uint8array-extras "^1.1.0"
 
 import-lazy@^3.1.0:
   version "3.1.0"
@@ -3473,7 +3550,7 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@2.0.4, inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.3:
+inherits@2, inherits@2.0.4, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.3:
   version "2.0.4"
   resolved "https://registry.npmmirror.com/inherits/-/inherits-2.0.4.tgz"
 
@@ -3504,7 +3581,7 @@ invert-kv@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmmirror.com/invert-kv/-/invert-kv-1.0.0.tgz"
 
-irregular-plurals@^3.2.0:
+irregular-plurals@^3.3.0:
   version "3.5.0"
   resolved "https://registry.npmmirror.com/irregular-plurals/-/irregular-plurals-3.5.0.tgz#0835e6639aa8425bdc8b0d33d0dc4e89d9c01d2b"
 
@@ -3563,6 +3640,12 @@ is-buffer@^1.1.5:
 is-callable@^1.1.4, is-callable@^1.2.4:
   version "1.2.4"
   resolved "https://registry.npmmirror.com/is-callable/-/is-callable-1.2.4.tgz"
+
+is-core-module@^2.13.0:
+  version "2.14.0"
+  resolved "https://registry.npmmirror.com/is-core-module/-/is-core-module-2.14.0.tgz#43b8ef9f46a6a08888db67b1ffd4ec9e3dfd59d1"
+  dependencies:
+    hasown "^2.0.2"
 
 is-core-module@^2.9.0:
   version "2.9.0"
@@ -3653,9 +3736,16 @@ is-glob@^4.0.0, is-glob@^4.0.1, is-glob@~4.0.1:
   dependencies:
     is-extglob "^2.1.1"
 
-is-jpg@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmmirror.com/is-jpg/-/is-jpg-2.0.0.tgz"
+is-identifier@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/is-identifier/-/is-identifier-1.0.0.tgz#58b6b07a53c633151fa65531d8fa9c6eb6af31a4"
+  dependencies:
+    identifier-regex "^1.0.0"
+    super-regex "^1.0.0"
+
+is-jpg@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmmirror.com/is-jpg/-/is-jpg-3.0.0.tgz#f97b4ab6de92401650cb4f54ec0a6ad79c51367f"
 
 is-module@^1.0.0:
   version "1.0.0"
@@ -3758,17 +3848,21 @@ is-stream@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npmmirror.com/is-stream/-/is-stream-2.0.1.tgz"
 
+is-stream@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmmirror.com/is-stream/-/is-stream-3.0.0.tgz#e6bfd7aa6bef69f4f472ce9bb681e3e57b4319ac"
+
 is-string@^1.0.5, is-string@^1.0.7:
   version "1.0.7"
   resolved "https://registry.npmmirror.com/is-string/-/is-string-1.0.7.tgz"
   dependencies:
     has-tostringtag "^1.0.0"
 
-is-svg@^4.2.1:
-  version "4.3.2"
-  resolved "https://registry.npmmirror.com/is-svg/-/is-svg-4.3.2.tgz"
+is-svg@^4.3.1:
+  version "4.4.0"
+  resolved "https://registry.npmmirror.com/is-svg/-/is-svg-4.4.0.tgz#34db20a38146be5f2b3060154da33d11e6f74b7c"
   dependencies:
-    fast-xml-parser "^3.19.0"
+    fast-xml-parser "^4.1.3"
 
 is-symbol@^1.0.2, is-symbol@^1.0.3:
   version "1.0.4"
@@ -3919,9 +4013,9 @@ jstransformer@1.0.0:
     is-promise "^2.0.0"
     promise "^7.0.1"
 
-junk@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.npmmirror.com/junk/-/junk-3.1.0.tgz"
+junk@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npmmirror.com/junk/-/junk-4.0.1.tgz#7ee31f876388c05177fe36529ee714b07b50fbed"
 
 just-debounce@^1.0.0:
   version "1.1.0"
@@ -4163,13 +4257,13 @@ merge-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmmirror.com/merge-stream/-/merge-stream-2.0.0.tgz"
 
-merge2@^1.3.0, merge2@^1.4.1:
+merge2@^1.3.0:
   version "1.4.1"
   resolved "https://registry.npmmirror.com/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
 
-micro-memoize@^4.0.9:
-  version "4.0.10"
-  resolved "https://registry.npmmirror.com/micro-memoize/-/micro-memoize-4.0.10.tgz"
+micro-memoize@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.npmmirror.com/micro-memoize/-/micro-memoize-4.1.2.tgz#ce719c1ba1e41592f1cd91c64c5f41dcbf135f36"
 
 micromatch@^3.0.4, micromatch@^3.1.10, micromatch@^3.1.4:
   version "3.1.10"
@@ -4218,6 +4312,10 @@ mimic-fn@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmmirror.com/mimic-fn/-/mimic-fn-2.1.0.tgz"
 
+mimic-fn@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmmirror.com/mimic-fn/-/mimic-fn-4.0.0.tgz#60a90550d5cb0b239cca65d893b1a53b29871ecc"
+
 mimic-response@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/mimic-response/-/mimic-response-1.0.1.tgz"
@@ -4249,12 +4347,12 @@ mixin-deep@^1.2.0:
     for-in "^1.0.2"
     is-extendable "^1.0.1"
 
-moize@^6.1.0:
-  version "6.1.1"
-  resolved "https://registry.npmmirror.com/moize/-/moize-6.1.1.tgz"
+moize@^6.1.6:
+  version "6.1.6"
+  resolved "https://registry.npmmirror.com/moize/-/moize-6.1.6.tgz#ac2e723e74b951875fe2c0c3433405c2b098c3e6"
   dependencies:
     fast-equals "^3.0.1"
-    micro-memoize "^4.0.9"
+    micro-memoize "^4.1.2"
 
 moment-timezone@^0.5.34:
   version "0.5.41"
@@ -4276,9 +4374,9 @@ morgan@^1.9.1:
     on-finished "~2.3.0"
     on-headers "~1.0.2"
 
-mozjpeg@^7.0.0:
-  version "7.1.1"
-  resolved "https://registry.npmmirror.com/mozjpeg/-/mozjpeg-7.1.1.tgz#dfb61953536e66fcabd4ae795e7a312d42a51f18"
+mozjpeg@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.npmmirror.com/mozjpeg/-/mozjpeg-8.0.0.tgz#cd990d96581626ca64b877146ce22ba00b3b308c"
   dependencies:
     bin-build "^3.0.0"
     bin-wrapper "^4.0.0"
@@ -4398,11 +4496,17 @@ npm-run-path@^2.0.0:
   dependencies:
     path-key "^2.0.0"
 
-npm-run-path@^4.0.0, npm-run-path@^4.0.1:
+npm-run-path@^4.0.1:
   version "4.0.1"
   resolved "https://registry.npmmirror.com/npm-run-path/-/npm-run-path-4.0.1.tgz"
   dependencies:
     path-key "^3.0.0"
+
+npm-run-path@^5.1.0:
+  version "5.3.0"
+  resolved "https://registry.npmmirror.com/npm-run-path/-/npm-run-path-5.3.0.tgz#e23353d0ebb9317f174e93417e4a4d82d0249e9f"
+  dependencies:
+    path-key "^4.0.0"
 
 nth-check@^2.0.1:
   version "2.1.1"
@@ -4508,11 +4612,17 @@ once@^1.3.0, once@^1.3.1, once@^1.3.2, once@^1.4.0:
   dependencies:
     wrappy "1"
 
-onetime@^5.1.0, onetime@^5.1.2:
+onetime@^5.1.2:
   version "5.1.2"
   resolved "https://registry.npmmirror.com/onetime/-/onetime-5.1.2.tgz"
   dependencies:
     mimic-fn "^2.1.0"
+
+onetime@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.npmmirror.com/onetime/-/onetime-6.0.0.tgz#7c24c18ed1fd2e9bca4bd26806a33613c77d34b4"
+  dependencies:
+    mimic-fn "^4.0.0"
 
 open@^8.0.9:
   version "8.4.0"
@@ -4546,6 +4656,17 @@ os-locale@^1.4.0:
   resolved "https://registry.npmmirror.com/os-locale/-/os-locale-1.4.0.tgz"
   dependencies:
     lcid "^1.0.0"
+
+ow@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/ow/-/ow-2.0.0.tgz#07690490ac9783b37241c4ebee32dfcab1b20ee1"
+  dependencies:
+    "@sindresorhus/is" "^6.3.0"
+    callsites "^4.1.0"
+    dot-prop "^8.0.2"
+    environment "^1.0.0"
+    fast-equals "^5.0.1"
+    is-identifier "^1.0.0"
 
 p-cancelable@^0.3.0:
   version "0.3.0"
@@ -4666,6 +4787,10 @@ path-key@^3.0.0, path-key@^3.1.0:
   version "3.1.1"
   resolved "https://registry.npmmirror.com/path-key/-/path-key-3.1.1.tgz"
 
+path-key@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmmirror.com/path-key/-/path-key-4.0.0.tgz#295588dc3aee64154f877adb9d780b81c554bf18"
+
 path-parse@^1.0.7:
   version "1.0.7"
   resolved "https://registry.npmmirror.com/path-parse/-/path-parse-1.0.7.tgz"
@@ -4688,13 +4813,13 @@ path-type@^1.0.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
-path-type@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmmirror.com/path-type/-/path-type-4.0.0.tgz"
+path-type@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmmirror.com/path-type/-/path-type-5.0.0.tgz#14b01ed7aea7ddf9c7c3f46181d4d04f9c785bb8"
 
-peek-readable@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.npmmirror.com/peek-readable/-/peek-readable-4.1.0.tgz#4ece1111bf5c2ad8867c314c81356847e8a62e72"
+peek-readable@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.npmmirror.com/peek-readable/-/peek-readable-5.1.1.tgz#7dbeafa1ce271a3eba3fba808883bdb03769b822"
 
 pend@~1.2.0:
   version "1.2.0"
@@ -4739,11 +4864,11 @@ plugin-error@1.0.1, plugin-error@^1.0.1:
     arr-union "^3.1.0"
     extend-shallow "^3.0.2"
 
-plur@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmmirror.com/plur/-/plur-4.0.0.tgz#729aedb08f452645fe8c58ef115bf16b0a73ef84"
+plur@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.npmmirror.com/plur/-/plur-5.1.0.tgz#bff58c9f557b9061d60d8ebf93959cf4b08594ae"
   dependencies:
-    irregular-plurals "^3.2.0"
+    irregular-plurals "^3.3.0"
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
@@ -4757,9 +4882,13 @@ prepend-http@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmmirror.com/prepend-http/-/prepend-http-2.0.0.tgz"
 
-pretty-bytes@^5.3.0, pretty-bytes@^5.6.0:
+pretty-bytes@^5.3.0:
   version "5.6.0"
   resolved "https://registry.npmmirror.com/pretty-bytes/-/pretty-bytes-5.6.0.tgz"
+
+pretty-bytes@^6.1.1:
+  version "6.1.1"
+  resolved "https://registry.npmmirror.com/pretty-bytes/-/pretty-bytes-6.1.1.tgz#38cd6bb46f47afbf667c202cfc754bffd2016a3b"
 
 pretty-hrtime@^1.0.0, pretty-hrtime@^1.0.3:
   version "1.0.3"
@@ -4965,20 +5094,6 @@ readable-stream@3:
     string_decoder "^1.1.1"
     util-deprecate "^1.0.1"
 
-readable-stream@^3.6.0:
-  version "3.6.2"
-  resolved "https://registry.npmmirror.com/readable-stream/-/readable-stream-3.6.2.tgz#56a9b36ea965c00c5a93ef31eb111a0f11056967"
-  dependencies:
-    inherits "^2.0.3"
-    string_decoder "^1.1.1"
-    util-deprecate "^1.0.1"
-
-readable-web-to-node-stream@^3.0.0:
-  version "3.0.2"
-  resolved "https://registry.npmmirror.com/readable-web-to-node-stream/-/readable-web-to-node-stream-3.0.2.tgz#5d52bb5df7b54861fd48d015e93a2cb87b3ee0bb"
-  dependencies:
-    readable-stream "^3.6.0"
-
 readdirp@^2.2.1:
   version "2.2.1"
   resolved "https://registry.npmmirror.com/readdirp/-/readdirp-2.2.1.tgz"
@@ -5090,10 +5205,6 @@ replace-ext@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/replace-ext/-/replace-ext-1.0.1.tgz"
 
-replace-ext@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmmirror.com/replace-ext/-/replace-ext-2.0.0.tgz#9471c213d22e1bcc26717cd6e50881d88f812b06"
-
 replace-homedir@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmmirror.com/replace-homedir/-/replace-homedir-1.0.0.tgz"
@@ -5114,6 +5225,10 @@ require-main-filename@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/require-main-filename/-/require-main-filename-1.0.1.tgz"
 
+reserved-identifiers@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/reserved-identifiers/-/reserved-identifiers-1.0.0.tgz#a4878ea2b5130ec2bf5aba40074edcb9704d2623"
+
 resolve-dir@^1.0.0, resolve-dir@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/resolve-dir/-/resolve-dir-1.0.1.tgz"
@@ -5131,11 +5246,19 @@ resolve-url@^0.2.1:
   version "0.2.1"
   resolved "https://registry.npmmirror.com/resolve-url/-/resolve-url-0.2.1.tgz"
 
-resolve@^1.1.6, resolve@^1.1.7, resolve@^1.10.0, resolve@^1.11.0, resolve@^1.14.2, resolve@^1.15.1, resolve@^1.19.0, resolve@^1.22.0, resolve@^1.4.0:
+resolve@^1.1.6, resolve@^1.1.7, resolve@^1.10.0, resolve@^1.14.2, resolve@^1.15.1, resolve@^1.19.0, resolve@^1.22.0, resolve@^1.4.0:
   version "1.22.1"
   resolved "https://registry.npmmirror.com/resolve/-/resolve-1.22.1.tgz"
   dependencies:
     is-core-module "^2.9.0"
+    path-parse "^1.0.7"
+    supports-preserve-symlinks-flag "^1.0.0"
+
+resolve@^1.20.0:
+  version "1.22.8"
+  resolved "https://registry.npmmirror.com/resolve/-/resolve-1.22.8.tgz#b6c87a9f2aa06dfab52e3d70ac8cde321fa5a48d"
+  dependencies:
+    is-core-module "^2.13.0"
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
 
@@ -5153,9 +5276,9 @@ reusify@^1.0.4:
   version "1.0.4"
   resolved "https://registry.npmmirror.com/reusify/-/reusify-1.0.4.tgz"
 
-rfdc@^1.1.4:
-  version "1.3.0"
-  resolved "https://registry.npmmirror.com/rfdc/-/rfdc-1.3.0.tgz"
+rfdc@^1.3.0:
+  version "1.4.1"
+  resolved "https://registry.npmmirror.com/rfdc/-/rfdc-1.4.1.tgz#778f76c4fb731d93414e8f925fbecf64cce7f6ca"
 
 rimraf@^2.5.4:
   version "2.7.1"
@@ -5198,13 +5321,9 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
-safer-buffer@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.npmmirror.com/safer-buffer/-/safer-buffer-2.1.2.tgz"
-
-sax@~1.2.4:
-  version "1.2.4"
-  resolved "https://registry.npmmirror.com/sax/-/sax-1.2.4.tgz"
+sax@~1.3.0:
+  version "1.3.0"
+  resolved "https://registry.npmmirror.com/sax/-/sax-1.3.0.tgz#a5dbe77db3be05c9d1ee7785dbd3ea9de51593d0"
 
 seek-bzip@^1.0.5:
   version "1.0.6"
@@ -5318,17 +5437,13 @@ side-channel@^1.0.4:
     get-intrinsic "^1.0.2"
     object-inspect "^1.9.0"
 
-signal-exit@^3.0.0, signal-exit@^3.0.2, signal-exit@^3.0.3:
+signal-exit@^3.0.0, signal-exit@^3.0.3, signal-exit@^3.0.7:
   version "3.0.7"
   resolved "https://registry.npmmirror.com/signal-exit/-/signal-exit-3.0.7.tgz"
 
-slash@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmmirror.com/slash/-/slash-3.0.0.tgz"
-
-slash@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmmirror.com/slash/-/slash-4.0.0.tgz#2422372176c4c6c5addb5e2ada885af984b396a7"
+slash@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.npmmirror.com/slash/-/slash-5.1.0.tgz#be3adddcdf09ac38eebe8dcdc7b1a57a75b095ce"
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
@@ -5384,13 +5499,6 @@ source-map-resolve@^0.5.0:
     resolve-url "^0.2.1"
     source-map-url "^0.4.0"
     urix "^0.1.0"
-
-source-map-resolve@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.npmmirror.com/source-map-resolve/-/source-map-resolve-0.6.0.tgz"
-  dependencies:
-    atob "^2.1.2"
-    decode-uri-component "^0.2.0"
 
 source-map-support@~0.5.20:
   version "0.5.21"
@@ -5457,9 +5565,9 @@ split-string@^3.0.1, split-string@^3.0.2:
   dependencies:
     extend-shallow "^3.0.0"
 
-sprintf-js@^1.0.3:
-  version "1.1.2"
-  resolved "https://registry.npmmirror.com/sprintf-js/-/sprintf-js-1.1.2.tgz"
+sprintf-js@^1.1.2:
+  version "1.1.3"
+  resolved "https://registry.npmmirror.com/sprintf-js/-/sprintf-js-1.1.3.tgz#4914b903a2f8b685d17fdf78a70e917e872e444a"
 
 stable@^0.1.8:
   version "0.1.8"
@@ -5589,6 +5697,10 @@ strip-final-newline@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmmirror.com/strip-final-newline/-/strip-final-newline-2.0.0.tgz"
 
+strip-final-newline@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmmirror.com/strip-final-newline/-/strip-final-newline-3.0.0.tgz#52894c313fbff318835280aed60ff71ebf12b8fd"
+
 strip-indent@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmmirror.com/strip-indent/-/strip-indent-3.0.0.tgz"
@@ -5601,41 +5713,37 @@ strip-outer@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.2"
 
-striptags@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.npmmirror.com/striptags/-/striptags-3.1.1.tgz"
+striptags@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.npmmirror.com/striptags/-/striptags-3.2.0.tgz#cc74a137db2de8b0b9a370006334161f7dd67052"
 
-strnum@^1.0.4:
+strnum@^1.0.5:
   version "1.0.5"
-  resolved "https://registry.npmmirror.com/strnum/-/strnum-1.0.5.tgz"
+  resolved "https://registry.npmmirror.com/strnum/-/strnum-1.0.5.tgz#5c4e829fe15ad4ff0d20c3db5ac97b73c9b072db"
 
-strtok3@^6.2.4:
-  version "6.3.0"
-  resolved "https://registry.npmmirror.com/strtok3/-/strtok3-6.3.0.tgz#358b80ffe6d5d5620e19a073aa78ce947a90f9a0"
+strtok3@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.npmmirror.com/strtok3/-/strtok3-7.1.0.tgz#98856ed6651c2f7f0e8a436a54536a53528ecfb2"
   dependencies:
     "@tokenizer/token" "^0.3.0"
-    peek-readable "^4.1.0"
+    peek-readable "^5.1.1"
 
-stylus@^0.57.0:
-  version "0.57.0"
-  resolved "https://registry.npmmirror.com/stylus/-/stylus-0.57.0.tgz"
+stylus@^0.62.0:
+  version "0.62.0"
+  resolved "https://registry.npmmirror.com/stylus/-/stylus-0.62.0.tgz#648a020e2bf90ed87587ab9c2f012757e977bb5d"
   dependencies:
-    css "^3.0.0"
+    "@adobe/css-tools" "~4.3.1"
     debug "^4.3.2"
     glob "^7.1.6"
-    safer-buffer "^2.1.2"
-    sax "~1.2.4"
+    sax "~1.3.0"
     source-map "^0.7.3"
 
-stylus@^0.59.0:
-  version "0.59.0"
-  resolved "https://registry.npmmirror.com/stylus/-/stylus-0.59.0.tgz#a344d5932787142a141946536d6e24e6a6be7aa6"
+super-regex@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/super-regex/-/super-regex-1.0.0.tgz#dd90d944a925a1083e7d8570919b21cb76e3d925"
   dependencies:
-    "@adobe/css-tools" "^4.0.1"
-    debug "^4.3.2"
-    glob "^7.1.6"
-    sax "~1.2.4"
-    source-map "^0.7.3"
+    function-timeout "^1.0.1"
+    time-span "^5.1.0"
 
 supports-color@^5.3.0:
   version "5.5.0"
@@ -5660,7 +5768,7 @@ sver-compat@^1.5.0:
     es6-iterator "^2.0.1"
     es6-symbol "^3.1.1"
 
-svgo@^2.1.0:
+svgo@^2.5.0:
   version "2.8.0"
   resolved "https://registry.npmmirror.com/svgo/-/svgo-2.8.0.tgz#4ff80cce6710dc2795f0c7c74101e6764cfccd24"
   dependencies:
@@ -5721,12 +5829,6 @@ text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmmirror.com/text-table/-/text-table-0.2.0.tgz"
 
-through2-concurrent@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmmirror.com/through2-concurrent/-/through2-concurrent-2.0.0.tgz"
-  dependencies:
-    through2 "^2.0.0"
-
 through2-filter@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmmirror.com/through2-filter/-/through2-filter-3.0.0.tgz"
@@ -5760,6 +5862,12 @@ through@^2.3.8:
 tildify@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmmirror.com/tildify/-/tildify-2.0.0.tgz"
+
+time-span@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.npmmirror.com/time-span/-/time-span-5.1.0.tgz#80c76cf5a0ca28e0842d3f10a4e99034ce94b90d"
+  dependencies:
+    convert-hrtime "^5.0.0"
 
 time-stamp@^1.0.0:
   version "1.1.0"
@@ -5830,9 +5938,9 @@ token-stream@1.0.0:
   version "1.0.0"
   resolved "https://registry.npmmirror.com/token-stream/-/token-stream-1.0.0.tgz"
 
-token-types@^4.1.1:
-  version "4.2.1"
-  resolved "https://registry.npmmirror.com/token-types/-/token-types-4.2.1.tgz#0f897f03665846982806e138977dbe72d44df753"
+token-types@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.npmmirror.com/token-types/-/token-types-6.0.0.tgz#1ab26be1ef9c434853500c071acfe5c8dd6544a3"
   dependencies:
     "@tokenizer/token" "^0.3.0"
     ieee754 "^1.2.1"
@@ -5863,6 +5971,10 @@ type-fest@^0.16.0:
   version "0.16.0"
   resolved "https://registry.npmmirror.com/type-fest/-/type-fest-0.16.0.tgz"
 
+type-fest@^3.8.0:
+  version "3.13.1"
+  resolved "https://registry.npmmirror.com/type-fest/-/type-fest-3.13.1.tgz#bb744c1f0678bea7543a2d1ec24e83e68e8c8706"
+
 type@^1.0.1:
   version "1.2.0"
   resolved "https://registry.npmmirror.com/type/-/type-1.2.0.tgz"
@@ -5889,6 +6001,10 @@ uglify-js@3.4.x:
 uglify-js@^3.5.1, uglify-js@~3.10.0:
   version "3.10.4"
   resolved "https://registry.npmmirror.com/uglify-js/-/uglify-js-3.10.4.tgz"
+
+uint8array-extras@^1.1.0, uint8array-extras@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.npmmirror.com/uint8array-extras/-/uint8array-extras-1.3.0.tgz#0b2e511cfdd91e00b8f011ba6b850d7671f36fa2"
 
 unbox-primitive@^1.0.2:
   version "1.0.2"
@@ -5947,6 +6063,10 @@ unicode-match-property-value-ecmascript@^2.0.0:
 unicode-property-aliases-ecmascript@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmmirror.com/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-2.0.0.tgz"
+
+unicorn-magic@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npmmirror.com/unicorn-magic/-/unicorn-magic-0.1.0.tgz#1bb9a51c823aaf9d73a8bfcd3d1a23dde94b0ce4"
 
 union-value@^1.0.0:
   version "1.0.1"
@@ -6118,17 +6238,17 @@ void-elements@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmmirror.com/void-elements/-/void-elements-3.1.0.tgz"
 
-warehouse@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.npmmirror.com/warehouse/-/warehouse-4.0.2.tgz"
+warehouse@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.npmmirror.com/warehouse/-/warehouse-5.0.1.tgz#4062c9c5d6c84f245532923a23ecb4b5441024a5"
   dependencies:
-    bluebird "^3.2.2"
-    cuid "^2.1.4"
-    graceful-fs "^4.1.3"
-    hexo-log "^3.0.0"
+    bluebird "^3.7.2"
+    cuid "^2.1.8"
+    graceful-fs "^4.2.10"
+    hexo-log "^4.0.1"
     is-plain-object "^5.0.0"
     jsonparse "^1.3.1"
-    rfdc "^1.1.4"
+    rfdc "^1.3.0"
     through2 "^4.0.2"
 
 webidl-conversions@^4.0.2:
